@@ -1,0 +1,44 @@
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 740px) and (max-width: 1023){
+
+}
+
+@media (max-width: 740px){
+    .nav{
+        display: block;
+    }
+    .nav > li{
+        display: block;
+    }
+    .nav > li:nth-child(1){
+        display: inline-block;
+    }
+    .nav li a{
+        padding: 1 24px;
+    }
+    .nav .subnav{
+        position: initial;
+        background: #333;
+    }
+    .nav .subnav a{
+        color: #fff;
+        padding: 0 41px;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+    .header .search-btn{
+        display: none;
+    }
+    .header .menu-btn{
+        display: block;
+    }
+    .content .member-mobile{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
